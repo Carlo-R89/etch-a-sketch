@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+#btn {
+  height: 60px;
+  width: 100px;
+}
+
+#cont {
+  display: flex;
+  height: 100vh;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  height: 500px;
+  width: 500px;
+  border: 2px solid blue;
+}
+
+.container div {
+  background-color: #f4f4f4;
+  border: 1px solid black;
+}
